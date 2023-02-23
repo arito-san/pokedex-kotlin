@@ -16,17 +16,13 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        >
+        android:layout_marginBottom="8dp">
 
         <ImageView
             android:id="@+id/ivPokemon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
-            android:background="@drawable/charmander"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
             android:contentDescription="Pokemon Image"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -71,10 +67,10 @@
                 android:id="@+id/tvType1"
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
-                android:background="#fd7d24"
+                android:background="#A9A9A9"
                 android:gravity="center_horizontal"
                 android:textAlignment="center"
-                android:textColor="#fff"
+                android:textColor="#000"
                 android:textSize="12sp"
                 tools:text="Fire" />
 
@@ -84,10 +80,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
-                android:background="#fd7d24"
+                android:background="#A9A9A9"
                 android:gravity="center_horizontal"
                 android:textAlignment="center"
-                android:textColor="#fff"
+                android:textColor="#000"
                 android:textSize="12sp"
                 tools:text="Fire" />
         </LinearLayout>
